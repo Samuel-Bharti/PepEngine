@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: auto;
+}
+
+html {
+    color: black;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-rendering: optimizeLegibility;
+    
+}
+/*----#0C1F63-----blue--color-----*/
+body {
+/*    background-color: #fff;*/
+    background-color: #797c86;
+    
+
+}
+p {
+    font-size: 90%;
+}
+.menu {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #0C1F63;
+    border-color: white;
+    border-bottom: 2px solid white; 
+    
+}
+.bg-this{
+    background-color: #0C1F63 !important;
+   }
+
+.main-box img {
+    height: 50px;
+    width: auto;
+    float: left;
+    margin-right: 40%;
+}
+/*
+.row {
+    width: auto;
+    margin: 0 auto;
+}
+*/
+
+/*
+h1 {
+    margin:0;
+    margin-bottom: 22px;
+    color: black;
+    font-size: 200%;
+    font-weight: 200;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+*/
+h2 {
+    font-size: 100%;
+    word-spacing: 2px;
+    text-align: left;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.long-copy {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+.main-nav{
+    width: 100%;
+    background-color: #0C1F63;
+    margin-top: 0px;
+    list-style: none;
+    float: right;
+    
+}
+.feature-list {
+    font-size: 90%;
+    list-style: square;
+}
+
+section {
+        padding: 12px 30px;
+}
+
+.about-features {
+    padding-top: 6px;
+    
+}
+.feature-list li{
+    margin-left: 30px;
+}
+
+.main-nav li {
+    margin-top: 12px;
+    display:inline-block;
+    margin-left: 20px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 80%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid white;
+}
+
+/*
+.btn:link,
+.btn:visited {
+    margin-left: 200px;
+    display:inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    border: 1px solid #0C1F63;
+    background-color: #0C1F63;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #0C1F63;
+}
+*/
+
+.search {
+    font-size: 45%;
+    font-style: italic;
+    padding: 6px ;
+    border: 1px solid grey;
+    margin-bottom: 2px;
+    margin-top: auto;
+}
+.submit {
+    padding: 2px;
+    margin-left: 10px;
+    background:#0C1F63; 
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 70%;
+    border-bottom: 2px solid black;
+}
+
+
+
+/*----Contact Us----- */
+
+.tagline {
+    display: block;
+    text-align: center;
+    font-size: 100%;
+    font-style: bold;
+    background-color: #bbc8f7;
+    margin-top: 0;
+    padding-top: 0px;
+    padding-bottom: 4px;
+}
+
+
+.team {
+    padding-top: 5px;
+    margin: 10px 50px 5px 50px;
+    
+}
+.team h2, .contact-details h2 {
+    font-size: 120%;
+}
+
+.box {
+    display:inline-block;
+    width: auto;
+    height: 250px;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: #0C1F63;
+    border-radius: 10%;
+}
+.box img {
+    height: auto;
+    width: 160px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+}
+.box p {
+    text-align: center;
+    font-size: 60%;
+    color: #fff;   
+}
+
+/*
+.contact-details {
+    border-top: 1px solid #555;
+    padding-top: 5px;
+    font-size: 90%;
+}
+*/
+
+/*--Table formatting---*/
+
+.tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+    border-color:#9ABAD9;
+    margin: 0px auto;               /*--FOR full page table---*/
+}
+
+.tg td {
+    font-family:'Lato','Arial', sans-serif;
+    font-size:16px;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:#9ABAD9;
+    color:#444;
+    background-color:#EBF5FF;
+}
+
+.tg th {
+    font-family:'Lato','Arial', sans-serif;
+    font-size:18px;
+    font-weight:normal;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:#0C1F63;
+    color:#fff;
+    background-color:#0C1F63;
+}
+
+.tg .tg-1wig {
+    font-weight:bold;
+    text-align:left;
+    vertical-align:top;
+}
+
+.tg .tg-hmp3 {
+    background-color:#D2E4FC;
+    text-align:left;
+    vertical-align:top;
+}
+
+.tg .tg-0lax {
+    text-align:left;
+    vertical-align:top;
+}
+.col span-1-of-2 pepbox{
+    display: inline-block;
+    float: right;
+}
+.jmol .jbox{
+    position: absolute;
+    display: inline-block;
+    float: right;
+}
+
+.btn2:link,
+.btn2:visited {
+    float: right;
+    margin-right: 125px;
+    display:inline-block;
+    padding: 8px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.heading {
+    display: block;
+    width: 65%;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+.category h2{
+   
+    display: inline-block;
+    font-weight: 300;
+    text-align: center;
+    font-size: 140%;
+    border:2px solid grey; 
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #0C1F63;
+    border-radius: 10%;   
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.btn3:link,
+.btn3:visited {
+    font-size: 150%;
+    margin-left: 350px;
+    margin-bottom: 100px;
+    display:inline-block;
+    padding: 30px 100px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 10%;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.team-image {
+    height: 110px;
+    width: auto;
+}
+
+.dwnform .submit {
+    padding: 10px 5px;
+    margin: 5px;
+    margin-left: auto;
+    border-radius: 10%;
+}
+
+.dwnform .search{
+    padding: 10px 40px;
+    margin: 10px auto;
+    font-size: 80%;
+}
+
+.download h3{
+    font-size: 70%;
+    text-transform: uppercase;
+}
+.mnt h3{
+    text-align: center;
+}
+.sdf, .pdb{
+    padding: 10px 10px;
+    border-radius: 10%;
+    margin: 10px auto;
+}
+
+.jmolbtns {
+    display: inline-block;
+    float: right;
+    margin-right: 250px;
+}
+
+.noshow {
+    display: none;
+}
+
+/*
+#particles-js{
+  width: 100%;
+  height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+ z-index: -1;
+    background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+*/
+#dnaBack{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;    
+}
+#dna2Back{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 250px;
+    bottom: 0;
+    left: 450px;
+    right: 0;
+    z-index: -1;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;    
+}
+
+.browse_btn {
+    margin: auto;
+}
+.browse_btn button{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    display: block;
+    background-color: #0C1F63;
+    padding: 20px 10px 20px 10px;
+}
+
+.browse_btn button:hover,
+.browse_btn button:active,
+.download button:hover,
+.download button:visited
+
+{
+    background-color: white;
+    color: #0C1F63;
+    border-color: #0C1F63;
+}
+
+.divider {
+     border-top: 1px solid #555;
+}
+.divider-vertical {
+    border-left: 1px solid black;
+}
+.download a:active{
+    background-color: #0C1F63;
+}
+
+.download button {
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 45px;
+    display: block;
+    margin-left: auto;
+    width: 200px;
+    background-color: #0C1F63; 
+}
+
+.download {
+    margin-top: 30px;
+    margin-bottom: 115px;
+}
+
+.text {
+    font-size: 170%;
+    font-style: bold;
+}
+
+.customcard {
+    display: inline-block;
+}
+
+.cardheight {
+    height: 120px;
+}
+
+#contactcard {
+    margin-top: 10px;
+}
